@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation">
+        content="TransDiff: Diffusion-Based Method for Manipulating Transparent
+        Objects Using a Single RGB-D Image">
   <meta name="keywords" content="depth, estimation, monocular, scene, reconstruction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:image:src" content="http://marigoldmonodepth.github.io/images/marigold_logo_square.jpg">
   <meta name="twitter:title" content="Marigold Depth">
-  <meta name="twitter:description" content="Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation">
+  <meta name="twitter:description" content="TransDiff: Diffusion-Based Method for Manipulating Transparent Objects Using a Single RGB-D Image">
   <meta name="twitter:creator" content="@AntonObukhov1">
 
-  <title>Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation</title>
+  <title>TransDiff: Diffusion-Based Method for Manipulating Transparent
+    Objects Using a Single RGB-D Image</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FWSVCGZTG"></script>
@@ -67,43 +69,64 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation</h1>
-          <h3 class="title has-text-centered">CVPR 2024 (Oral, Best Paper Award Candidate)</h3>
+          <h1 class="title is-2 publication-title">TransDiff: Diffusion-Based Method for Manipulating Transparent Objects Using a Single RGB-D Image</h1>
+          <h3 class="title has-text-centered">ICRA 2025</h3>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="http://www.kebingxin.com/" target="_blank" rel="noopener noreferrer">
-                Bingxin Ke</a>,
+              <a href="https://wang-haoxiao.github.io/" target="_blank" rel="noopener noreferrer">
+                Haoxiao Wang<sup>1*</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://www.obukhov.ai" target="_blank" rel="noopener noreferrer">
-                Anton Obukhov</a>,
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Kaichen Zhou<sup>1*</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://shengyuh.github.io/" target="_blank" rel="noopener noreferrer">
-                Shengyu Huang</a>,
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Binrui Gu<sup>1</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://nandometzger.github.io/" target="_blank" rel="noopener noreferrer">
-                Nando Metzger</a>,
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Zhiyuan Feng<sup>2</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://rcdaudt.github.io/" target="_blank" rel="noopener noreferrer">
-                Rodrigo Caye Daudt</a>,
+              <a href="https://lhmd.top/" target="_blank" rel="noopener noreferrer">
+                Weijie Wang<sup>3</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=FZuNgqIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-                Konrad Schindler</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Peilin Sun<sup>3</sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Yicheng Xiao<sup>4</sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Jianhua Zhang<sup>1</sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="https://zsdonghao.github.io/" target="_blank" rel="noopener noreferrer">
+                Hao Dong<sup>1✝</sup></a>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Photogrammetry and Remote Sensing, ETH Zürich</span>
+            <span class="author-block"><sup>1 </sup> Peking Univerisity</span>   
+            <span class="author-block"><sup>2 </sup> Tsinghua Univerisity</span>
+            <span class="author-block"><sup>3 </sup> Zhejiang Univerisity</span>
+            <span class="author-block"><sup>4 </sup> Southeast Univerisity</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>* </sup>equal contributions</span>   
+            <span class="author-block"><sup>✝ </sup>corresponding author  </span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
+              <!-- Paper link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2312.02145" target="_blank" rel="noopener noreferrer"
+                <a href="" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf" style="color: orangered"></i>
@@ -113,25 +136,25 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/prs-eth/marigold" target="_blank" rel="noopener noreferrer"
+                <a href="" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>
-                    Code:
+                    Code: Coming soon
                   </span>
-                  <img
+                  <!-- <img
                           src="https://img.shields.io/github/stars/prs-eth/marigold?style=for-the-badge&label=&color=333333&labelColor=333333" alt="GitHub stars"
                           style="margin-top: 3px;"
-                  >
-                  <span>
+                  > -->
+                  <!-- <span>
                     stars
-                  </span>
+                  </span> -->
                 </a>
               </span>
               <!-- Hugging Face Space -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://huggingface.co/spaces/prs-eth/marigold" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -139,9 +162,9 @@
                   </span>
                   <span>Interactive Demo</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Hugging Face (diffusers). -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://huggingface.co/docs/diffusers/using-diffusers/marigold_usage" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon" style="background-color: white; border-radius: 50%;">
@@ -149,9 +172,9 @@
                   </span>
                   <span>&nbsp;Diffusers Tutorial</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Colab Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://colab.research.google.com/drive/12G8reD13DdpMie5ZQlaFNo2WCGeNUH-u?usp=sharing" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -159,7 +182,7 @@
                   </span>
                   <span>&nbsp;Google Colab</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -171,9 +194,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img id="teaser" width="100%" src="./images/teaser_collage_compressed.jpg" alt="Teaser image demonstrating Marigold depth estimation."/>
+      <img id="teaser" width="100%" src="" alt="Teaser image demonstrating TransDiff depth estimation."/>
       <h2 class="subtitle has-text-centered">
-        <span class="methodname">Marigold</span> is the new state-of-the-art depth estimator for images in the wild.
+        <!-- <span class="methodname">Marigold</span> is the new state-of-the-art depth estimator for images in the wild. -->
       </h2>
     </div>
   </div>
@@ -187,7 +210,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
-          <p>
+          <!-- <p>
             We present <span class="methodname">Marigold</span>, a diffusion model and associated fine-tuning protocol for monocular depth estimation. Its core
             principle is to leverage the rich visual knowledge stored in modern generative image models. Our model, derived from Stable Diffusion and
             fine-tuned with synthetic data, can zero-shot transfer to unseen data, offering state-of-the-art monocular depth estimation results.
@@ -196,7 +219,7 @@
           <p>
             The gallery below presents several images from the internet and a comparison of <span class="methodname">Marigold</span> with the previous
             state-of-the-art method LeRes. Use the slider and gestures to reveal details on both sides.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -926,49 +949,49 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">How it works</h2>
         <div class="content has-text-justified">
-          <h3 class="title has-text-centered">
+          <!-- <h3 class="title has-text-centered">
             Fine-tuning protocol
-          </h3>
+          </h3> -->
 
-          <p>
+          <!-- <p>
             Starting from a pretrained Stable Diffusion, we encode the image $x$ and depth $d$ into the latent space
             using the original Stable Diffusion VAE.
             We fine-tune just the U-Net by optimizing the standard diffusion objective relative to the depth latent code.
             Image conditioning is achieved by concatenating the two latent codes before feeding them into the U-Net.
             The first layer of the U-Net is modified to accept concatenated latent codes.
-          </p>
+          </p> -->
 
-          <img id="method_train" width="100%" src="./images/method_training_compressed.jpg" alt="Marigold training scheme"/>
+          <!-- <img id="method_train" width="100%" src="./images/method_training_compressed.jpg" alt="Marigold training scheme"/> -->
 
-          <h3 class="title has-text-centered">
+          <!-- <h3 class="title has-text-centered">
             Inference scheme
-          </h3>
+          </h3> -->
 
-          <p>
+          <!-- <p>
             Given an input image $x$, we encode it with the original Stable Diffusion VAE into the latent code $z^{(x)}$,
             and concatenate with the depth latent $z^{(d)}_t$ before giving it to the modified fine-tuned U-Net on every denoising iteration.
             After executing the schedule of $T$ steps, the resulting depth latent $z^{(d)}_0$ is decoded into
             an image, whose 3 channels are averaged to get the final estimation $\hat d$.
-          </p>
+          </p> -->
 
-          <img id="method_inference" width="100%" src="./images/method_inference_compressed.jpg" alt="Marigold inference scheme"/>
+          <!-- <img id="method_inference" width="100%" src="./images/method_inference_compressed.jpg" alt="Marigold inference scheme"/> -->
 
           <h3 class="title has-text-centered">
             Comparison with other methods
           </h3>
 
-          <p>
+          <!-- <p>
             Quantitative comparison of <span class="methodname">Marigold</span> with SOTA affine-invariant depth estimators
             on several zero-shot benchmarks. All metrics are presented in percentage terms; bold numbers are the best,
             underscored second best. Our method outperforms other methods on both indoor and outdoor scenes in most cases,
             without ever seeing a real depth sample.
-          </p>
+          </p> -->
 
-          <img id="comparison" width="100%" src="./images/comparison.png" alt="Comparison with other methods"/>
+          <!-- <img id="comparison" width="100%" src="./images/comparison.png" alt="Comparison with other methods"/> -->
 
-          <p class="mt-5">
+          <!-- <p class="mt-5">
             Refer to the pdf paper linked above for more details on qualitative, quantitative, and ablation studies.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -1142,12 +1165,12 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">Citation</h2>
-    <pre class="selectable"><code>@InProceedings{ke2023repurposing,
+    <!-- <pre class="selectable"><code>@InProceedings{ke2023repurposing,
         title={Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation},
         author={Bingxin Ke and Anton Obukhov and Shengyu Huang and Nando Metzger and Rodrigo Caye Daudt and Konrad Schindler},
         booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
         year={2024}
-}</code></pre>
+}</code></pre> -->
   </div>
 </section>
 
